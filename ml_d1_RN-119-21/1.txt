@@ -1,0 +1,22 @@
+a) 
+"Word2vec" je tehnika u oblasti obrade prirodnog jezika koja se koristi za generisanje vektorskih reprezentacija reči iz teksta.
+ Osnovna ideja je mapiranje reči iz prirodnog jezika u vektorski prostor, gde slične reči imaju slične vektorske reprezentacije.
+ Ova tehnika omogućava računarima da bolje razumeju semantičke veze između reči.Može se koristiti za:
+     -pretraživanje sličnih reči.
+     -analizu sentimenta teksta.
+     -razumevanje semantike reči i njihov kontekstualnu upotrebu.
+     -preporuku sadržaja na osnovu sličnosti između reči.
+     -identifikaciju autora teksta ili stilove pisanja.
+"word2vec" omogućava računarima da bolje razumeju prirodni jezik i koriste to razumevanje za različite zadatke obrade prirodnog jezika.
+b)
+ Osnovna razlika između ove tri varijante Naive Bayes metoda leži u tipu podataka koji se koristi za trening i klasifikaciju,
+ odnosno u raspodeli atributa koje pretpostavljaju o podacima.
+-Za Gaussian Naive Bayes se pretpostavlja da su vrednosti atributa kontinualne i raspodeljene po Gaussovoj (normalnoj) raspodeli i da su atributi nezavisni
+-Za Multinomial Naive Bayes se pretpostavlja da podaci predstavljaju diskretne brojeve, često se koristi u tekstualnoj analizi,gde se atributi
+ odnose na broj pojavljivanja određenih reči i da su atributi multinomijalno raspodeljeni.
+-Bernoulli Naive Bayes-slična Multinomial Naive Bayes, ali se koristi kada su atributi binarni, tj. kada predstavljaju prisustvo ili odsustvo određenih karakteristika.
+Pretpostavka je da su atributi Bernoullijevski raspodeljeni.
+c)
+Linearna separabilnost je svojstvo skupa podataka koje označava mogućnost podeljenja podataka linearnom granicom ili hiperravnnom u višedimenzionalnom prostoru.
+Skup podataka je linearno separabilan ako postoji linearna funkcija (hiperravan) koja može jasno razdvojiti podatke iz različitih klasa.Podaci iz skupa iris.csv
+su linearno separabilni.Cvetovi vrste Iris-setosa su jasno odvojeni od druge dve vrste cvetova.
